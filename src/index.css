@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Hovesbold";
+    src: url(/fonts/TT-Hoves-Pro-Trial-Expanded-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Hoves-reg";
+    src: url(/fonts/TT-Hoves-Pro-Trial-Expanded-Regular.ttf);
+}
+@font-face {
+    font-family: "Hoves-light";
+    src: url(/fonts/TT-Hoves-Pro-Trial-Expanded-Light.ttf);
+}
+
+.bold{
+    font-family: "Hovesbold",sans-serif;
+}
+.reg{
+    font-family: "Hoves-reg",sans-serif;
+}
+.light{
+    font-family: "Hoves-light",sans-serif;
+}
